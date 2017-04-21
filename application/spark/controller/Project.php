@@ -105,7 +105,7 @@ class Project
     $fileName = "proj$projid"."step$stepid.png";
     $path = __DIR__ . "/../../../public/static/progress/$fileName";
     $result = file_put_contents($path, $data);
-    $url = "https://www.kingco.tech/campusvc/public/static/progress/$fileName";
+    $url = "https://campus.kingco.tech/static/progress/$fileName";
     $map = array(
       'projid' => $projid,
       'stepid' => $stepid
