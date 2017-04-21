@@ -23,7 +23,7 @@ class Festival
     $path = __DIR__ . "/../../../public/static/logo/$fileName";
     $result = file_put_contents($path, $data);
     if ($result) {
-      $url = "https://campus.kingco.tech/static/logo/$fileName";
+      $url = "https://www.kingco.tech/static/logo/$fileName";
       $data = [
         'festid' => $festid,
         'logoid' => 1,
